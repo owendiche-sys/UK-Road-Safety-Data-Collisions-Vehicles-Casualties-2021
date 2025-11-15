@@ -129,26 +129,13 @@ Summary statistics CSVs are saved in the `outputs/` folder:
 
 - `monthly\_accidents\_summary.csv`
 
-\- `day\_of\_week\_summary.csv`
+- `day\_of\_week\_summary.csv`
 
 
 ---
 
 
-
-## Tools \& Libraries
-
-- Python 3.x  
-
-- pandas  
-
-- numpy
-    
-- matplotlib  
-
-- seaborn  
+ 
 
 
-
----
 
