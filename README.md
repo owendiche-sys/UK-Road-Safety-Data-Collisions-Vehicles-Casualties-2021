@@ -1,24 +1,19 @@
-\# UK Road Accident Analysis — 2021
+# UK Road Accident Analysis — 2021
 
-\# UK Road Accident Analysis — 2021
-
-
-
-\## Project Overview
+## Project Overview
 
 This project performs an exploratory data analysis (EDA) on UK road accidents in 2021. Using datasets on collisions, vehicles, and casualties, we analyze patterns, trends, and severity of accidents to gain insights into road safety.
 
 
-
 The analysis includes:
 
-\- Temporal patterns (monthly and weekly trends)
+- Temporal patterns (monthly and weekly trends)
 
-\- Accident severity distributions
+- Accident severity distributions
 
-\- Vehicle types involved and casualty summaries
+- Vehicle types involved and casualty summaries
 
-\- Summary statistics and visualizations for decision-making and policy insights
+- Summary statistics and visualizations for decision-making and policy insights
 
 
 
@@ -26,17 +21,17 @@ The analysis includes:
 
 
 
-\## Datasets
+## Datasets
 
 The analysis uses the following CSV files from the UK Road Safety Data repository:
 
 
 
-1\. \*\*Collisions\*\*: Information on each accident (date, time, location, severity, road conditions, etc.)
+1\. **Collisions**: Information on each accident (date, time, location, severity, road conditions, etc.)
 
-2\. \*\*Vehicles\*\*: Details about vehicles involved in each accident
+2\. **Vehicles**: Details about vehicles involved in each accident
 
-3\. \*\*Casualties\*\*: Information on casualties resulting from accidents
+3\. **Casualties**: Information on casualties resulting from accidents
 
 
 
@@ -48,9 +43,9 @@ All CSV files are stored in the `data/` folder.
 
 
 
-\## Methodology
+## Methodology
 
-1\. \*\*Data Loading \& Cleaning\*\*
+1\. **Data Loading & Cleaning**
 
 &nbsp;  - Read collisions, vehicles, and casualties datasets
 
@@ -60,7 +55,7 @@ All CSV files are stored in the `data/` folder.
 
 
 
-2\. \*\*Feature Engineering\*\*
+2\. **Feature Engineering**
 
 &nbsp;  - Extract Year, Month, Month Name, and Day of Week
 
@@ -70,7 +65,7 @@ All CSV files are stored in the `data/` folder.
 
 
 
-3\. \*\*Exploratory Data Analysis (EDA)\*\*
+3\. **Exploratory Data Analysis (EDA)**
 
 &nbsp;  - Visualize monthly accident trends
 
@@ -82,7 +77,7 @@ All CSV files are stored in the `data/` folder.
 
 
 
-4\. \*\*Summary Statistics\*\*
+4\. **Summary Statistics**
 
 &nbsp;  - Export CSV files with overall summary, monthly summary, and day-of-week summary
 
@@ -94,15 +89,15 @@ All CSV files are stored in the `data/` folder.
 
 
 
-\## Key Insights
+## Key Insights
 
-\- \*\*Temporal Patterns\*\*: Accidents occur more frequently on weekdays and certain months show higher accident counts.  
+- **Temporal Patterns**: Accidents occur more frequently on weekdays and certain months show higher accident counts.  
 
-\- \*\*Severity Patterns\*\*: Most accidents are slight; serious and fatal accidents are influenced by weather, road type, and urban/rural area.  
+- **Severity Patterns**: Most accidents are slight; serious and fatal accidents are influenced by weather, road type, and urban/rural area.  
 
-\- \*\*Vehicles \& Casualties\*\*: Single-vehicle accidents are most common, while multi-vehicle accidents tend to be more severe with more casualties.  
+- **Vehicles & Casualties**: Single-vehicle accidents are most common, while multi-vehicle accidents tend to be more severe with more casualties.  
 
-\- \*\*Practical Implications\*\*: These insights can support traffic authorities and policymakers in targeting high-risk periods and conditions, and inform future predictive analyses for accident prevention.
+- **Practical Implications**: These insights can support traffic authorities and policymakers in targeting high-risk periods and conditions, and inform future predictive analyses for accident prevention.
 
 
 
@@ -110,15 +105,15 @@ All CSV files are stored in the `data/` folder.
 
 
 
-\## Visualizations
+## Visualizations
 
 All visualizations are stored in the `images/` folder:
 
-\- `monthly\_accidents.png` — Monthly accident trends
+- `monthly\_accidents.png` — Monthly accident trends
 
-\- `accidents\_by\_dow.png` — Accidents by day of the week
+- `accidents\_by\_dow.png` — Accidents by day of the week
 
-\- Additional charts for severity, vehicles, and casualties are included in the repository
+- Additional charts for severity, vehicles, and casualties are included in the repository
 
 
 
@@ -126,33 +121,32 @@ All visualizations are stored in the `images/` folder:
 
 
 
-\## Outputs
+## Outputs
 
 Summary statistics CSVs are saved in the `outputs/` folder:
 
-\- `overall\_summary\_statistics.csv`
+- `overall\_summary\_statistics.csv`
 
-\- `monthly\_accidents\_summary.csv`
+- `monthly\_accidents\_summary.csv`
 
 \- `day\_of\_week\_summary.csv`
 
 
-
 ---
 
 
 
-\## Tools \& Libraries
+## Tools \& Libraries
 
-\- Python 3.x  
+- Python 3.x  
 
-\- pandas  
+- pandas  
 
-\- numpy  
+- numpy
+    
+- matplotlib  
 
-\- matplotlib  
-
-\- seaborn  
+- seaborn  
 
 
 
